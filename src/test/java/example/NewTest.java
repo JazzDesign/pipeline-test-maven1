@@ -18,7 +18,7 @@ public class NewTest {
 	}	
 	@BeforeTest
 	public void beforeTest() {	
-//		System.setProperty("webdriver.gecko.driver","/Users/jasonchicas/Documents/Universidad/M2-Francia/stage/stage-subject/selenium-java-3.141.59/geckodriver");
+		System.setProperty("webdriver.gecko.driver","./webdriver/linux/geckodriver");
 	    driver = new FirefoxDriver();  
 	}		
 	@AfterTest
